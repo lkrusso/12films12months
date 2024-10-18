@@ -1,4 +1,4 @@
-function FilmCard() {
+function FilmCard({ film }) {
   return (
     <div className="filmcard">
       <p className="filmcard-text">This is a FilmCard</p>
