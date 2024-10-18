@@ -1,12 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
+import "./App.scss";
 function App() {
   return (
     <BrowserRouter>
       <NavBar></NavBar>
-      <div className="App">
-        <p>This is the 12films12months site</p>
-      </div>
     </BrowserRouter>
   );
 }
