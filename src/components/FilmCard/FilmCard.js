@@ -1,7 +1,10 @@
 function FilmCard({ film }) {
   return (
     <div className="filmcard">
-      <p className="filmcard-text">This is a FilmCard</p>
+      <img
+        src={`https://vumbnail.com/${film.id}.jpg`}
+        alt={`Thumbnail of ${film.title} `}
+      />
     </div>
   );
 }
